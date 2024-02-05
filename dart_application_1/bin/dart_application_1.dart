@@ -1,11 +1,11 @@
 import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
 
 void main(List<String> arguments) {
-  print('Hello world: ${dart_application_1.calculate()}!');
-  // Obtener la fecha y hora actual
+  print('Hola mundo: ${dart_application_1.calculate()}!');
+    // Obtener la fecha y hora actual
     DateTime now = DateTime.now();
     // Formatear la fecha y hora
-    String formattedDateTime = "${now.year}-${now.month}-${now.day} ${now.hour}:${now.minute}:${now.second}";
+    String formattedDateTime = "${now.day}-${now.month}-${now.year} ${now.hour}:${now.minute}:${now.second}";
     // Imprimir el mensaje con la fecha y hora
     print('Hello world: ${dart_application_1.calculate()}! ($formattedDateTime)');
 }
